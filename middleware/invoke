@@ -5,6 +5,6 @@
 #
 /usr/bin/invoke_app "$@" -t pvparameters \
                          -C "start_jupyter -T @tool -t PVparameters.ipynb" \
-                         -u anaconda-X \
+                         -u anaconda-6 \
                          -r none \
                          -w headless
